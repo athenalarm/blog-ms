@@ -4,6 +4,20 @@ title = "Blog Athenalarm"
 languageCode = "ms"
 theme = "ananke"
 
+# --- 新增：SEO 与 索引 增强配置 ---
+canonifyURLs = true
+uglyURLs = false
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+# -------------------------------
+
 # Author Information (optional)
 [author]
   name = "Athenalarm"
